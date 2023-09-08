@@ -1,0 +1,78 @@
+@media (max-width: 1640px) {
+	.house {
+		left: 79.1%;
+		top: -15.5%;
+	}
+
+	.quay {
+		left: 15.8%;
+		top: 49.1%;
+	}
+
+	.hotel {
+		left: 20.8%;
+		top: 8%;
+	}
+
+	.corps-a {
+		left: 67.7%;
+		top: 50.1%;
+	}
+
+	.corps-b {
+		left: 92.6%;
+		top: 34.8%;
+	}
+
+	.shop {
+		left: 80.3%;
+		top: 17.3%;
+	}
+}
+
+@media (max-width: 1420px) {
+	.house {
+		left: 84.1%;
+		top: -15.5%;
+	}
+
+	.quay {
+		left: 10.8%;
+		top: 49.1%;
+	}
+
+	.stadium {
+		left: 28.4%;
+		top: 44.5%;
+	}
+
+	.hotel {
+		left: 18.8%;
+		top: 8%;
+	}
+
+	.corps-a {
+		left: 73.7%;
+		top: 50.1%;
+	}
+
+	.corps-b {
+		left: 99.6%;
+		top: 34.8%;
+	}
+
+	.shop {
+		left: 85.3%;
+		top: 17.3%;
+	}
+
+	.aparts {
+		left: 60.3%;
+		top: 65.5%;
+	}
+
+	.railway-station {
+		left: 65.1%;
+		top: 34%;
+	}
+}

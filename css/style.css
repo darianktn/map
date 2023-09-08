@@ -1,0 +1,157 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-width: 1280px;
+	font-family: 'Arial', sans-serif;
+}
+
+.background {
+	height: 100vh;
+	background-image: url('/background-img.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+button {
+	border: 0;
+}
+
+.btn-wrap {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 41px;
+	height: 41px;
+	border-radius: 60px;
+	opacity: 0.7;
+	transition: width 0.5s ease;
+	overflow: hidden;
+}
+
+.btn--green {
+	background-color: #6abf4b;
+}
+
+.btn--blue {
+	background-color: #3877ee;
+}
+
+.btn-wrap .btn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 41px;
+	height: 41px;
+	background-color: transparent;
+	border-radius: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.btn-wrap .btn::before {
+	position: absolute;
+	content: '';
+	width: 10px;
+	height: 2px;
+	background: white;
+}
+
+.btn-wrap .btn::after {
+	position: absolute;
+	content: '';
+	width: 10px;
+	height: 2px;
+	background: white;
+	transform: rotate(90deg);
+	transition: 0.3s;
+}
+
+.btn-wrap.active {
+	opacity: 1;
+	transition: width 0.5s ease;
+}
+
+.btn-wrap.active .content-wrap {
+	opacity: 1;
+}
+
+.btn-wrap.active .btn::after {
+	background: transparent;
+}
+
+.content-wrap span {
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: normal;
+	white-space: nowrap;
+}
+
+.content-wrap {
+	position: absolute;
+	left: 41px;
+}
+
+.stadium {
+	left: 35.4%;
+	top: 44.5%;
+}
+
+.railway-station {
+	left: 60.1%;
+	top: 34%;
+}
+
+.aparts {
+	left: 57.3%;
+	top: 65.5%;
+}
+
+.corps-a {
+	left: 67.7%;
+	top: 50.1%;
+}
+
+.quay {
+	left: 21.8%;
+	top: 49.1%;
+}
+
+.hotel {
+	left: 24.8%;
+	top: 8%;
+}
+
+.parking {
+	left: 57.3%;
+	top: 37.3%;
+}
+
+.shop {
+	left: 77.3%;
+	top: 17.3%;
+}
+
+.house {
+	left: 76.1%;
+	top: -15.5%;
+}
+
+.corps-b {
+	left: 87.6%;
+	top: 34.8%;
+}
