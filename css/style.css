@@ -18,7 +18,7 @@ body {
 .background {
 	height: 100vh;
 	background-image: url('/map-main/background-img.jpg');
-	/* background-image: url('/img/background-img.jpg'); */
+	/* background-image: url('/background-img.jpg'); */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
